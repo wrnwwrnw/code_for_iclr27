@@ -1,10 +1,7 @@
 # LazyRecall
 
 > Version 0.3.1 uses one runtime for all supported architectures and supports
-> static multi-request decoding for Llama/full-attention Mistral. The default
-> `batch_size=1` retains the single-request algorithm, with cache-interface
-> compatibility for Transformers 5.14.1. CPU regression checks are available;
-> target-GPU validation is required before publishing performance or quality results.
+> static multi-request decoding for Llama/full-attention Mistral.
 
 Training-free, global KV-cache management with temporal decision-risk scoring,
 lazy eviction, and optional CPU retrieval with real GPU reinsertion.
