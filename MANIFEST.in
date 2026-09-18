@@ -1,0 +1,6 @@
+recursive-include csrc *.cu *.cpp
+recursive-include configs *.json
+include README.md environment.txt
+include run.py
+prune tool
+global-exclude __pycache__ *.pyc *.so

@@ -1,0 +1,10 @@
+torch==2.11.0
+transformers==5.14.1
+flash-attn==2.8.3
+numpy>=1.26,<3
+accelerate>=1.0
+safetensors
+faiss-cpu>=1.8
+setuptools>=68
+wheel
+ninja
